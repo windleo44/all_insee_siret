@@ -17,7 +17,7 @@ with open('sections.csv') as s:
                 i+=1
         if codes:
             sections.append([section,codes])
-code = '71.12B'
+code = '10.6'
 for section in sections:
     if code in section[1]:
         print(section[0])
