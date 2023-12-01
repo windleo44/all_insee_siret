@@ -175,7 +175,7 @@ SECTION C;INDUSTRIE MANUFACTURIÈRE
 10.51D;Fabrication d'autres produits laitiers
 10.52;Fabrication de glaces et sorbets
 10.52Z;Fabrication de glaces et sorbets
-10.6;"Travail des grains ; fabrication de produits amylacés"
+10.6;Travail des grains, fabrication de produits amylacés
 10.61;Travail des grains
 10.61A;Meunerie
 10.61B;Autres activités du travail des grains
@@ -1593,8 +1593,7 @@ SECTION Q;SANTÉ HUMAINE ET ACTION SOCIALE
 87.10;Hébergement médicalisé
 87.10A;Hébergement médicalisé pour personnes âgées
 87.10B;Hébergement médicalisé pour enfants handicapés 
-87.10C;"Hébergement médicalisé pour adultes handicapés et autre hébergement médicalisé 
-"
+87.10C;Hébergement médicalisé pour adultes handicapés et autre hébergement médicalisé 
 87.2;Hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes
 87.20;Hébergement social pour personnes handicapées mentales, malades mentales et toxicomanes
 87.20A;Hébergement social pour handicapés mentaux et malades mentaux 
@@ -1618,9 +1617,7 @@ SECTION Q;SANTÉ HUMAINE ET ACTION SOCIALE
 88.91A;Accueil de jeunes enfants
 88.91B;Accueil ou accompagnement sans hébergement d’enfants handicapés
 88.99;Autre action sociale sans hébergement n.c.a.
-88.99A;"Autre accueil ou accompagnement sans hébergement d’enfants
- et d’adolescents
-"
+88.99A;Autre accueil ou accompagnement sans hébergement d’enfantset d’adolescents
 88.99B;Action sociale sans hébergement n.c.a.
 SECTION R;ARTS, SPECTACLES ET ACTIVITÉS RÉCRÉATIVES
 90;Activités créatives, artistiques et de spectacle 
