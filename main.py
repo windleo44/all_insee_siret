@@ -105,11 +105,11 @@ def processSirets(fromAPI = False):
     valid_df = df.dropna(subset=['section', 'categories'], thresh=1).copy()
     unknown = df.loc[~df['siret'].isin(valid_df['siret'])].copy().astype({'siret': 'str'})
 
-    et_by_city_section = valid_df.groupby(['libelleCommuneEtablissement','section'])
+    et_by_city_section = valid_df.groupby(['codeCommuneEtablissement','libelleCommuneEtablissement','section'])
 
     et_by_city_section_nb = et_by_city_section.size().reset_index(name='nb')
 
-    et_by_city_category = valid_df.groupby(['libelleCommuneEtablissement','categories'])
+    et_by_city_category = valid_df.groupby(['codeCommuneEtablissement','libelleCommuneEtablissement','categories'])
 
     et_by_city_category_nb = et_by_city_category.size().reset_index(name='nb')
 
