@@ -1,0 +1,5 @@
+api-insee
+pandas
+python-dotenv
+openpyxl
+xlrd
